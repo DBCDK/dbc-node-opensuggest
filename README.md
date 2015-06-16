@@ -29,6 +29,7 @@ openSuggest.getSuggestions(params)
     console.log(reponse);
   });
 
-};```
+};
+```
 
 Calls to a method on the client returns a Promise object
