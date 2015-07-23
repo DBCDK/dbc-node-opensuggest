@@ -36,7 +36,7 @@ function getSuggestions(parameters) {
  * @returns {{getSuggestions: getSuggestions}}
  */
 function registerMethods(endpoint) {
-  client.registerMethod('getSuggestions', '' + endpoint + '/rest/terms', 'get');
+  client.registerMethod('getSuggestions', endpoint + '/rest/terms', 'get');
   return {
     getSuggestions: getSuggestions
   };
