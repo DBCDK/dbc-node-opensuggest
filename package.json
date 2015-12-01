@@ -1,6 +1,6 @@
 {
   "name": "dbc-node-opensuggest",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Client for the DBC OpenSuggestion service",
   "main": "dist/OpenSuggest.client.js",
   "scripts": {
